@@ -163,3 +163,8 @@ endif
 
 include $(wildcard ./board/$(STAR).mk)
 
+$(warning "BOARD=$(BOARD))
+$(warning "PLATFORM=$(PLATFORM))
+$(warning "CONFIG=$(CONFIG))
+$(warning "SETTINGS_FILE=$(SETTINGS_FILE))
+
